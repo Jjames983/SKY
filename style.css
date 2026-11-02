@@ -71,3 +71,99 @@ h1 {
     flex: 1 1 220px;
   }
 }
+/* General Website Styling */
+
+body {
+font-family: Arial, sans-serif;
+background-color: #ffffff;
+scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+font-size: 25px;
+letter-spacing: 1px;
+}
+
+.nav-link {
+margin-left: 10px;
+}
+
+.nav-link:hover {
+color: orange !important;
+}
+
+/* Home Page Background */
+
+.hero-section {
+
+height: 600px;
+
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1500");
+
+background-size: cover;
+background-position: center;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+/* Food Images */
+
+.food-image {
+height: 220px;
+object-fit: cover;
+}
+
+/* Cards */
+
+.card {
+border: none;
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+/* Buttons */
+
+.btn-warning {
+background-color: orange;
+border: none;
+}
+
+.btn-warning:hover {
+background-color: darkorange;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+font-weight: bold;
+}
+
+/* Footer */
+
+footer {
+margin-top: 30px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+.hero-section {
+    height: 450px;
+}
+
+.hero-section h1 {
+    font-size: 35px;
+}
+
+}
